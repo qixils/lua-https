@@ -2,7 +2,7 @@ LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 
 LOCAL_MODULE    := https
-LOCAL_MODULE_FILENAME := https
+# LOCAL_MODULE_FILENAME := https
 
 LOCAL_CFLAGS    := -DNOMINMAX
 LOCAL_CPPFLAGS  := -std=c++11
